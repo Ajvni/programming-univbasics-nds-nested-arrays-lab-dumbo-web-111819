@@ -26,7 +26,7 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  
+
 [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
 
 end
@@ -42,5 +42,5 @@ def matrix_update(matrix, row, column, new_value)
 matrix[row][column] = new_value
 
 return matrix
-  
+
 end
